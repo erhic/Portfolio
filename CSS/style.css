@@ -1,11 +1,12 @@
 html {
     font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
 }
 
 .whole {
     display: inline-block;
-    background-color: rgb(28, 184, 61);
-    margin: auto;
+    background-color: #fff;
+    margin: 0px;
 }
 
 .profilepic {
@@ -19,8 +20,11 @@ html {
     display: inline-block;
     width: 25%;
     float: left;
-    background-color: rgb(51, 161, 64, );
+    background-color: rgb(201, 98, 98);
     padding: 20px;
+    position: fixed;
+    margin-top: 0px;
+    color: #fff;
 }
 
 #nav a {
