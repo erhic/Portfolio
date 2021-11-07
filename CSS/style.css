@@ -17,10 +17,10 @@ html {
 
 #header {
     display: inline-block;
-    width: 30%;
+    width: 25%;
     float: left;
-    margin-left: 10px;
     background-color: rgb(51, 161, 64, );
+    padding: 20px;
 }
 
 #nav a {
@@ -33,6 +33,7 @@ html {
     background-color: rgb(255, 255, 255);
     float: right;
     display: inline-block;
+    padding: 15px;
 }
 
 #headings {
