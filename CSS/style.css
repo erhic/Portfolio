@@ -9,9 +9,10 @@
 }
 
 #header {
-    background-color: rgb(51, 161, 64, );
     float: left;
     width: 30%;
+    background-color: rgb(51, 161, 64, );
+    margin-left: 10px;
 }
 
 #nav a {
