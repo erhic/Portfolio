@@ -1,0 +1,9 @@
+.whole {
+    display: inline-block;
+}
+
+#header {
+    background-color: rgb(51, 161, 64, );
+    float: left;
+    width: 30%;
+}
