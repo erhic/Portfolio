@@ -13,3 +13,7 @@
     float: left;
     width: 30%;
 }
+
+#nav a {
+    display: block;
+}
