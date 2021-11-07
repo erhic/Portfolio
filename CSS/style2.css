@@ -33,8 +33,10 @@
         
         #Skills p:hover {
             background-color: rgb(241, 233, 237);
+            color: rgb(6, 30, 247);
         }
         
         span {
-            color: blue;
+            color: rgb(216, 144, 51);
+            font-weight: bold;
         }
