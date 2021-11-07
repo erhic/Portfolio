@@ -15,6 +15,7 @@
         
         #Skills img {
             width: 150PX;
+            height: 130px;
         }
         
         #Skills>div {
@@ -25,7 +26,11 @@
             border: 1px solid gray;
         }
         
-        #icon :hover {
+        a:hover {
             font-size: 24px;
-            background-color: rgb(176, 206, 66);
+            background-color: rgb(180, 7, 94);
+        }
+        
+        #Skills p:hover {
+            background-color: rgb(241, 233, 237);
         }
