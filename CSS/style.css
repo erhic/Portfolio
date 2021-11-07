@@ -25,6 +25,7 @@ html {
     position: fixed;
     margin-top: 0px;
     color: #fff;
+    overflow: auto;
 }
 
 #nav a {
