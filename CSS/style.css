@@ -4,22 +4,37 @@ html {
 
 .whole {
     display: inline-block;
+    background-color: rgb(28, 184, 61);
+    margin: auto;
 }
 
 .profilepic {
     border-radius: 60%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
 }
 
 #header {
-    float: left;
+    display: inline-block;
     width: 30%;
-    background-color: rgb(51, 161, 64, );
+    float: left;
     margin-left: 10px;
+    background-color: rgb(51, 161, 64, );
 }
 
 #nav a {
     display: block;
     text-decoration: none;
+}
+
+.main {
+    width: 65%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    display: inline-block;
+}
+
+#headings {
+    text-align: center;
 }
