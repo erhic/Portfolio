@@ -34,3 +34,7 @@
         #Skills p:hover {
             background-color: rgb(241, 233, 237);
         }
+        
+        span {
+            color: blue;
+        }
