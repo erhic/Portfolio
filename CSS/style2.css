@@ -40,3 +40,26 @@
             color: rgb(216, 144, 51);
             font-weight: bold;
         }
+        
+        #project>div {
+            width: 30%;
+            margin-left: 10px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border: 1px solid gray;
+        }
+        
+        #project {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        #project img {
+            width: 250px;
+            height: 200px;
+        }
+        
+        #project p:hover {
+            background-color: rgb(241, 233, 237);
+            color: rgb(6, 30, 247);
+        }
