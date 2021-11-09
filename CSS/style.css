@@ -17,18 +17,6 @@ html {
     margin-top: 20px;
 }
 
-#header {
-    display: inline-block;
-    width: 20%;
-    float: left;
-    background-color: rgb(201, 98, 98);
-    padding: 20px;
-    position: fixed;
-    margin-top: 0px;
-    color: #fff;
-    overflow: auto;
-}
-
 #nav a {
     display: block;
     text-decoration: none;
@@ -45,5 +33,9 @@ html {
 }
 
 #headings {
+    text-align: center;
+}
+
+.conta {
     text-align: center;
 }
