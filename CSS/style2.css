@@ -69,3 +69,17 @@
         button {
             background-color: #ff8000;
         }
+        
+        .footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: gray;
+            color: #FFF;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .skills>img {
+                width: 30%px !important;
+            }
+        }
