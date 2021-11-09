@@ -16,14 +16,16 @@
         #Skills img {
             width: 150PX;
             height: 130px;
+            text-align: center;
         }
         
         #Skills>div {
-            width: 25%;
+            width: 30%;
             margin-left: 10px;
             background-color: rgb(255, 255, 255);
-            padding: 10px;
+            padding: 15px;
             border: 1px solid gray;
+            border-radius: 5%;
         }
         
         a:hover {
@@ -62,4 +64,8 @@
         #project p:hover {
             background-color: rgb(241, 233, 237);
             color: rgb(6, 30, 247);
+        }
+        
+        button {
+            background-color: #ff8000;
         }

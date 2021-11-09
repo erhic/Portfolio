@@ -6,7 +6,7 @@ html {
 
 .whole {
     display: inline-block;
-    background-color: #fff;
+    background-color: rgb(204, 204, 204);
     margin: 0px;
 }
 
@@ -19,7 +19,7 @@ html {
 
 #header {
     display: inline-block;
-    width: 23%;
+    width: 20%;
     float: left;
     background-color: rgb(201, 98, 98);
     padding: 20px;
@@ -37,8 +37,8 @@ html {
 }
 
 .main {
-    width: 70%;
-    background-color: rgb(255, 255, 255);
+    width: 72%;
+    backgroud-color: rgb(204, 204, 204);
     float: right;
     display: inline-block;
     padding: 15px;
