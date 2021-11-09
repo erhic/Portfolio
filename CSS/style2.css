@@ -1,91 +1,119 @@
-        #section1 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-        
-        #section2 {
-            text-align: center;
-        }
-        
-        #Skills {
-            display: flex;
-            flex-direction: row;
-        }
-        
-        #Skills img {
-            width: 150PX;
-            height: 130px;
-            text-align: center;
-        }
-        
-        #Skills>div {
-            width: 30%;
-            margin-left: 10px;
-            background-color: rgb(255, 255, 255);
-            padding: 15px;
-            border: 1px solid gray;
-            border-radius: 5%;
-        }
-        
-        a:hover {
-            font-size: 24px;
-            background-color: rgb(180, 7, 94);
-        }
-        
-        #Skills p:hover {
-            background-color: rgb(241, 233, 237);
-            color: rgb(6, 30, 247);
-        }
-        
-        span {
-            color: rgb(216, 144, 51);
-            font-weight: bold;
-        }
-        
-        #project>div {
-            width: 30%;
-            margin-left: 10px;
-            background-color: rgb(255, 255, 255);
-            padding: 10px;
-            border: 1px solid gray;
-        }
-        
-        #project {
-            display: flex;
-            flex-direction: row;
-        }
-        
-        #project img {
-            width: 250px;
-            height: 200px;
-        }
-        
-        #project p:hover {
-            background-color: rgb(241, 233, 237);
-            color: rgb(6, 30, 247);
-        }
-        
-        button {
-            background-color: #ff8000;
-        }
-        
-        .footer {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            background-color: gray;
-            color: #FFF;
-        }
-        
-        @media only screen and (max-width: 720px) {
-            img {
-                width: 150px !important;
-                height: 150px;
-            }
-        }
-        
-        #socialmedia #one {
-            text-align: right;
-        }
+#section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#section2 {
+    text-align: center;
+}
+
+#Skills {
+    display: flex;
+    flex-direction: row;
+}
+
+#Skills img {
+    width: 150PX;
+    height: 130px;
+    text-align: center;
+}
+
+#Skills>div {
+    width: 30%;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
+a:hover {
+    font-size: 24px;
+    background-color: rgb(180, 7, 94);
+}
+
+#Skills p:hover {
+    background-color: rgb(241, 233, 237);
+    color: rgb(6, 30, 247);
+}
+
+span {
+    color: rgb(216, 144, 51);
+    font-weight: bold;
+}
+
+#project>div {
+    width: 30%;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+#project {
+    display: flex;
+    flex-direction: row;
+}
+
+#project img {
+    width: 250px;
+    height: 200px;
+}
+
+#project p:hover {
+    background-color: rgb(241, 233, 237);
+    color: rgb(6, 30, 247);
+}
+
+button {
+    background-color: #ff8000;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 720px) {
+    img {
+        width: 150px !important;
+        height: 150px;
+    }
+}
+
+#socialmedia #one {
+    text-align: right;
+}
+
+.topimage {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 720px) {
+    .topimage {
+        width: 150px;
+        height: 150px;
+        margin-top: 70px;
+    }
+}
+
+#intro {
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 720px) {
+    #introduction {
+        margin: auto;
+    }
+    #headings {
+        display: none;
+    }
+}
